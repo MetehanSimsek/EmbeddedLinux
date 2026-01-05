@@ -1,0 +1,1 @@
+cmd_/home/debian/EmLin_exp/gpio_lkm/Module.symvers := sed 's/ko$$/o/' /home/debian/EmLin_exp/gpio_lkm/modules.order | scripts/mod/modpost -m    -o /home/debian/EmLin_exp/gpio_lkm/Module.symvers -e -i Module.symvers   -T -

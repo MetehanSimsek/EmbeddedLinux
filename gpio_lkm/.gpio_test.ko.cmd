@@ -1,0 +1,1 @@
+cmd_/home/debian/EmLin_exp/gpio_lkm/gpio_test.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/debian/EmLin_exp/gpio_lkm/gpio_test.ko /home/debian/EmLin_exp/gpio_lkm/gpio_test.o /home/debian/EmLin_exp/gpio_lkm/gpio_test.mod.o;  true
